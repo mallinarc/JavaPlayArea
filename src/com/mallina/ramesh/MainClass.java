@@ -24,8 +24,7 @@ public class MainClass {
 		 ArrayList<String> alphabets1 = new ArrayList<>();
 		 alphabets.removeAll(Collections.singleton("A"));
 		 System.out.println(alphabets);
-		 alphabets.forEach(System.out::println);
-		 
+		 alphabets.forEach(System.out::println);		 
 		 Square s = (int j) -> j*j;
 		 int ans = s.calculate(5);
 		 System.out.println(ans);
